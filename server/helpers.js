@@ -33,7 +33,7 @@ const updatePayers = (deductedPoints, payers) => {
     payers[payer] += points;
     sum += points;
   }
-  payers['TOTAL'] += sum;
+  payers['TOTAL_POINTS'] += sum;
 };
 
 module.exports = {
