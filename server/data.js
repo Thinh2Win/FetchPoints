@@ -1,5 +1,12 @@
 const user = {
-  points: 11300,
+  points: 0,
+};
+
+const payers = {
+  'DANNON': 1100,
+  'UNILEVER': 200,
+  'MILLER COORS': 10000,
+  'TOTAL': 11300
 };
 
 const transactions = [
@@ -12,5 +19,6 @@ const transactions = [
 
 module.exports = {
   user,
-  transactions
+  transactions,
+  payers
 };
