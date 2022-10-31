@@ -1,0 +1,28 @@
+{
+  "name": "fetchpoints",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thinh2Win/FetchPoints.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thinh2Win/FetchPoints/issues"
+  },
+  "homepage": "https://github.com/Thinh2Win/FetchPoints#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "time-stamp": "^2.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
