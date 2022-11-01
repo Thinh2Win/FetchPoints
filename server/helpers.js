@@ -1,5 +1,3 @@
-const timestamp = require('time-stamp');
-
 const spendPoints = (total, transactions) => {
   let data = {};
   while (total > 0) {
