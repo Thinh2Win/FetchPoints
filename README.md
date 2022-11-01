@@ -12,6 +12,7 @@ Back end assessment for Fetch Rewards!
 1. In the terminal, type `npm install` and press enter to set up the dependencies.
 1. In the terminal, type `npm run server` and press enter to start up the server.
 1. If all goes well, terminal should say `App listening on port 3000` and is good to go.
+1. Please make sure that the JSON body is exactly as it appears below when using http put and post methods.
 
 ## API Endpoints
 | Method        | Endpoint      | Description   | JSON Body    |
