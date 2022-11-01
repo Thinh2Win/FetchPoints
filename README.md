@@ -8,7 +8,7 @@ Back end assessment for Fetch Rewards!
 ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 ## Starting the Application
-1. Please make sure you have Node.js downloaded by entering 'node -v' in the terminal command line
+1. Please make sure you have Node.js downloaded by entering `node -v` in the terminal command line
 1. In the terminal, type `npm install` and press enter to set up the dependencies.
 1. In the terminal, type `npm run server` and press enter to start up the server.
 1. If all goes well, terminal should say `App listening on port 3000` and is good to go.
