@@ -12,6 +12,6 @@ Back end assessment for Fetch Rewards!
 | ------------- | ------------- | ------------- | ------------- |
 | GET           | /payers/points | Retrieves all payer point balances ||
 | GET           | /transactions | Retrieves unspent transactions ||
-| POST          | /transactions | Posts a transaction | {"payer": <string>, "points": <integer>, "timestamp": <date>} |
-| PUT           | /transactions/spend | Updates spent transactions | {"points": <integer>} |
+| POST          | /transactions | Posts a transaction | {"payer": string, "points": integer, "timestamp": date} |
+| PUT           | /transactions/spend | Updates spent transactions | {"points": integer} |
 
