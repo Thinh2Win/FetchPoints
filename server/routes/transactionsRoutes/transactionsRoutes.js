@@ -1,6 +1,6 @@
 const express = require('express');
-const { spendPoints, updatePayers } = require('../helpers.js');
-const { transactions, payers } = require('../data.js');
+const { spendPoints, updatePayers } = require('../../helpers.js');
+const { transactions, payers } = require('../../data.js');
 
 const transactionsRouter = express.Router();
 

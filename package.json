@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --detectOpenHandles",
     "server-dev": "nodemon server/index.js",
     "server": "node server/index.js"
   },
@@ -20,10 +20,13 @@
   },
   "homepage": "https://github.com/Thinh2Win/FetchPoints#readme",
   "dependencies": {
+    "async": "^3.2.4",
     "express": "^4.18.2",
     "time-stamp": "^2.2.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "jest": "^29.2.2",
+    "nodemon": "^2.0.20",
+    "supertest": "^6.3.1"
   }
 }
